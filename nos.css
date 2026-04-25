@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+h1{
+   margin-left: 3%;
+   font-size: 50px;
+   margin-top: 100px;
+   color: white;
+}
+.branco {
+  color: white;
+}
+
+.roxo {
+  color: rgb(106, 0, 148);
+}
+p{
+    color: white;
+    margin-left: 3%;
+    font-size: 25px;
+    margin-top: 90px;
+
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+.menu{
+  display: flex;
+  gap: 20px;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold; /* "auto" não funciona */
+}
+.topo {
+  display: flex;
+  justify-content: space-between; /* separa logo e menu */
+  align-items: center; /* alinha na mesma altura */
+  padding: 20px;
+}
+.logo {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+}
+.note{
+    position: relative;
+    width: 900px;
+    left: 80px;
+}
+h1{
+  position: relative;
+  text-align: center;
+  left: 550px;
+  margin-top: -490px;
+  border-radius: 0;
+}
+p{
+  position: relative;
+  text-align: center;
+  left: 550px;
+  margin-top: 50px;
+  border-radius: 0;
+}
+h2{
+  position: relative;
+  text-align: center;
+  margin-top: 170px;
+  font-size: 50px;
+  left: 210px;
+}
+.banquin{
+  color: white;
+}
+.roxinho{
+  color: rgb(106, 0, 148);
+}
+.item{
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: white; 
+  width: 200px; 
+  height: 200px;
+  margin: 80px; 
+  float: left; 
+  border-radius: 25px;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* deixa a imagem certinha */
+  border-radius: 25px;
+}
+.container:hover > :not( :hover){
+  opacity: .4;
+  transform: scale(0.9);
+}
+/* largura da barra */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* fundo da barra */
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* parte que você arrasta */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+/* quando passa o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
