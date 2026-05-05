@@ -1,85 +1,52 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+#secao-hero{
+  padding: 0 6rem;
 }
 
-body{
-    background-color: black;
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-h1{
-   margin-left: 3%;
-   font-size: 100px;
-   margin-top: 100px;
-}
-.branco {
+
+.titulo{
   color: white;
+}
+.titulo-principal{
+  font-size: 12rem;
+}
+.subtitulo .btn-orcamento{
+  padding-left: 19px;
+}
+.btn-orcamento{
+  margin-top: 2rem;
 }
 
 .roxo {
   color: rgb(106, 0, 148);
 }
-p{
-    color: white;
-    margin-left: 3%;
-    font-size: 25px;
-    margin-top: 90px;
 
-}
-.topo {
-  display: flex;
-  justify-content: space-between; /* separa logo e menu */
-  align-items: center; /* alinha na mesma altura */
-  padding: 20px;
-}
-
-.menu {
-  display: flex;
-  gap: 20px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold; /* "auto" não funciona */
-}
-
-.logo {
-  width: 280px;
-  height: auto;
-  object-fit: cover;
-}
 .note{
-    position: relative;
-    left: 790px;
     width: 1000px;
-    margin-top: -360px;
 }
-.btn {
-    background-color: rgb(106, 0, 148);
+
+.btn-orcamento{
+background-color: rgb(106, 0, 148);
     color: white;
     padding: 12px 25px;
     border: none;
-    border-radius: 8px;
+    border-radius: 34px;
     cursor: pointer;
     font-size: 16px;
-
-    transition: 0.3s; /* animação suave */
+    font-weight: 600;
+    width: 68%;
+    transition: 0.3s;
 }
 
-/* Quando passa o mouse */
-.btn:hover {
+.btn-orcamento:hover {
     background-color: rgb(106, 0, 148);
-    transform: scale(1.05); /* aumenta levemente */
+    transform: scale(1.05);
 }
 
-/* Quando clica */
-.btn:active {
-    transform: scale(0.95); /* efeito de apertar */
-}
-.btn {
-    position: relative;
-    top: -200px;   /* desce */
-    right: 810px;  /* vai pra direita */
+.btn-orcamento:active {
+    transform: scale(0.95);
 }

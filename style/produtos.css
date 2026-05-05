@@ -6,23 +6,3 @@ h1{
    font-size: 100px;
    margin-top: 100px;
 }
-.menu{
-  display: flex;
-  gap: 20px;
-}
-.menu a{
-  text-decoration: none;
-  color: white;
-  font-weight: bold; /* "auto" não funciona */
-}
-.topo {
-  display: flex;
-  justify-content: space-between; /* separa logo e menu */
-  align-items: center; /* alinha na mesma altura */
-  padding: 20px;
-}
-.logo {
-  width: 280px;
-  height: auto;
-  object-fit: cover;
-}

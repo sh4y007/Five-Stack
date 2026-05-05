@@ -1,13 +1,5 @@
-body{
-    background-color: black;
-    overflow-x: hidden;
-}
-h1{
-   margin-left: 3%;
-   font-size: 50px;
-   margin-top: 100px;
-   color: white;
-}
+
+
 .branco {
   color: white;
 }
@@ -15,65 +7,32 @@ h1{
 .roxo {
   color: rgb(106, 0, 148);
 }
-p{
-    color: white;
-    margin-left: 3%;
-    font-size: 25px;
-    margin-top: 90px;
 
+
+img.img-sobre {
+    width: 69rem;
 }
-h2{
-    color: white;
-}
-p{
-    color: white;
-}
-.menu{
+
+.sobre-nos{
   display: flex;
-  gap: 20px;
+  justify-content: space-around;
+  align-items: start;
 }
-.menu a{
-  text-decoration: none;
-  color: white;
-  font-weight: bold; /* "auto" não funciona */
-}
-.topo {
+.sobre-titulo{
+  padding-top: 5rem;
   display: flex;
-  justify-content: space-between; /* separa logo e menu */
-  align-items: center; /* alinha na mesma altura */
-  padding: 20px;
+  flex-direction: column;
+  gap: 40px;
 }
-.logo {
-  width: 280px;
-  height: auto;
-  object-fit: cover;
+.sobre-titulo h1{
+  font-size: 75px;
 }
-.note{
-    position: relative;
-    width: 900px;
-    left: 80px;
+.sobre-titulo h3{
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.8;
 }
-h1{
-  position: relative;
-  text-align: center;
-  left: 550px;
-  margin-top: -490px;
-  border-radius: 0;
-}
-p{
-  position: relative;
-  text-align: center;
-  left: 550px;
-  margin-top: 50px;
-  border-radius: 0;
-}
-h2{
-  position: relative;
-  text-align: center;
-  margin-top: 170px;
-  font-size: 50px;
-  left: 210px;
-}
+
 .banquin{
   color: white;
 }
@@ -90,12 +49,7 @@ h2{
   float: left; 
   border-radius: 25px;
 }
-.item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* deixa a imagem certinha */
-  border-radius: 25px;
-}
+
 .container:hover > :not( :hover){
   opacity: .4;
   transform: scale(0.9);
