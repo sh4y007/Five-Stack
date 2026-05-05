@@ -7,44 +7,22 @@ img.img-sobre {
   justify-content: space-around;
   align-items: start;
 }
+
 .sobre-titulo{
   padding-top: 5rem;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
+
 .sobre-titulo h1{
   font-size: 75px;
 }
+
 .sobre-titulo h3{
   font-size: 23px;
   font-weight: 400;
   line-height: 1.8;
-}
-
-.item{
-  transition: 0.5s;
-  cursor: pointer;
-  background-color: white; 
-  width: 200px; 
-  height: 200px;
-  margin: 80px; 
-  float: left; 
-  border-radius: 25px;
-}
-
-.container:hover > :not( :hover){
-  opacity: .4;
-  transform: scale(0.9);
-}
-/* largura da barra */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* fundo da barra */
-::-webkit-scrollbar-track {
-  background: #111;
 }
 
 /* parte que você arrasta */
