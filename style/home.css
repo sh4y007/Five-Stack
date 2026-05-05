@@ -1,52 +1,48 @@
-#secao-hero{
+#secao-hero {
   padding: 0 6rem;
 }
 
-.hero{
+.hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.titulo{
+.titulo {
   color: white;
 }
-.titulo-principal{
+.titulo-principal {
   font-size: 12rem;
 }
-.subtitulo .btn-orcamento{
+.subtitulo .btn-orcamento {
   padding-left: 19px;
 }
-.btn-orcamento{
+.btn-orcamento {
   margin-top: 2rem;
 }
 
-.roxo {
-  color: rgb(106, 0, 148);
+.note {
+  width: 1000px;
 }
 
-.note{
-    width: 1000px;
-}
-
-.btn-orcamento{
-background-color: rgb(106, 0, 148);
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 34px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    width: 68%;
-    transition: 0.3s;
+.btn-orcamento {
+  background-color: rgb(106, 0, 148);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  width: 46%;
+  transition: 0.3s;
 }
 
 .btn-orcamento:hover {
-    background-color: rgb(106, 0, 148);
-    transform: scale(1.05);
+  background-color: rgb(106, 0, 148);
+  transform: scale(1.05);
 }
 
 .btn-orcamento:active {
-    transform: scale(0.95);
+  transform: scale(0.95);
 }

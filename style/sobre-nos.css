@@ -1,14 +1,3 @@
-
-
-.branco {
-  color: white;
-}
-
-.roxo {
-  color: rgb(106, 0, 148);
-}
-
-
 img.img-sobre {
     width: 69rem;
 }
@@ -33,12 +22,6 @@ img.img-sobre {
   line-height: 1.8;
 }
 
-.banquin{
-  color: white;
-}
-.roxinho{
-  color: rgb(106, 0, 148);
-}
 .item{
   transition: 0.5s;
   cursor: pointer;
